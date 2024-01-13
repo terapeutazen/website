@@ -1,0 +1,56 @@
+@import "../../app.scss";
+
+.parallax {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  h1 {
+    font-size: 100px;
+
+    @include mobile {
+      font-size: 72px;
+      text-align: center;
+    }
+  }
+
+  .mountains {
+    background-image: url("/flor-de-lotus-direita-topo-1980x1024.png");
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+
+    @include mobile {
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+  .planets {
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    @include mobile {
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+  .stars {
+    background-image: url("/Buddha-bg-1980x1024px.png");
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+  }
+}
