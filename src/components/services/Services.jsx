@@ -36,7 +36,7 @@ const Services = () => {
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
-          Meu objetivo é ajudar você a <br /> se livrar do estresse e melhorar a saúde.
+          Meu objetivo é ajudar você a <br /> se livrar do estresse e melhorar a sua saúde.
         </p>
         <hr />
       </motion.div>

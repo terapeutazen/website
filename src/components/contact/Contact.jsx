@@ -31,10 +31,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_94y20xo",
-        "template_v10u2oh",
+        "service_hsfj69n",
+        "template_rxtsh83",
         formRef.current,
-        "pX_2hasGmGcuvjXIW"
+        "Za6pzbD_CNnYGQCD7"
       )
       .then(
         (result) => {
@@ -58,7 +58,7 @@ const Contact = () => {
         <motion.h1 variants={variants}>Vamos marcar uma sessão?</motion.h1>
         <motion.div className="item" variants={variants}>
           <h2>E-mail</h2>
-          <span>luzterapeutazen@gmail.com</span>
+          <span>contato@terapeutazen.com.br</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Endereço</h2>
