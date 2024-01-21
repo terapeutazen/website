@@ -114,7 +114,6 @@ const Contact = () => {
           {success && "Mensagem enviada com sucesso!"}
         </motion.form>
       </div>
-      <div><br /></div>
     </motion.div>
   );
 };

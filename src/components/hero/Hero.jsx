@@ -47,7 +47,7 @@ const Hero = () => {
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariants}>terapeuta zen </motion.h2>
+          <motion.h2 variants={textVariants}>Terapeuta Zen </motion.h2>
           <motion.h1 variants={textVariants}>
             Massoterapeuta e Terapeuta Holística
           </motion.h1>
