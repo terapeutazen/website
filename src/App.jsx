@@ -31,9 +31,9 @@ const App = () => {
         <Contact />
       </section>
       {/* Framer Motion Crash Course */}
-      <section id="Footer">
+      {/* <section id="Footer">
         <Footer/>
-      </section>
+      </section> */}
       {/* <Test/>
     <Test/> */}
     </div>
